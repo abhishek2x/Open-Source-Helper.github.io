@@ -1,5 +1,5 @@
 module.exports = {
-  defaultTitle: "Abhishek Srivastava",
+  defaultTitle: "Open Source Helper",
   logo: "https://portfolio.smakosh.com/favicon/favicon-512.png",
   author: "Abhishek Srivastava",
   url: "https://portfolio.smakosh.com",

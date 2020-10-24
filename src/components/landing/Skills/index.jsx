@@ -12,15 +12,20 @@ export const Skills = () => {
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+          <img src={dev} alt="" />
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about Open-source Helper</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry’s standard dummy.
+            Open-Source Helper allows you to find a relevant project from
+            which you can learn and contribute, just by searching a skill
+            or keyword based on the your interest.
+            <br/>
+            We are providing a user-friendly website for users to Interact 
+            with thousands of open source projects available on the web, allowing 
+            them to select their ideal match with all filters to contribute on.
           </p>
-          <Button as={AnchorLink} href="#contact">
+          <Button as={AnchorLink} href="#projects">
             Explore Projects
           </Button>
         </Details>
