@@ -10,7 +10,7 @@ Keeping the above point in mind, our team has developed "The Open-source helper"
 This Application allows the user to find a relevant project from which he/she can learn and contribute, just by searching a skill or keyword based on the user's interest
 
 
-<img src="./README_IMAGES/ss.jpg" />
+<img src="./README_IMAGES/ss.png" />
 
 ## EXISTING WORK WITH LIMITATIONS
 
