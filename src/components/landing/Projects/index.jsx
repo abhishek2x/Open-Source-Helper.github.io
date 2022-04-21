@@ -30,11 +30,10 @@ export const Projects = () => {
     })
     const data = await response.json();
     const data2 = await response2.json();
-    // console.log(data.items);
-    // console.log(data2);
+    console.log(data.items);
+    console.log(data2);
     setRepos(data.items);
     setRepos2(data2);
-    return
   };
 
   const updateSearch = (e) => {
