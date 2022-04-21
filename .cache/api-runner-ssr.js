@@ -1,23 +1,23 @@
 var plugins = [{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-88875900-4","head":true},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
       options: {"plugins":[],"logo":"./static/favicon/favicon-512.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Open Source Helper","short_name":"starter","start_url":"/","background_color":"#6b63ff","theme_color":"#6b63ff","display":"minimal-ui","icon":"./static/favicon/favicon-512.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"b9f7b61e18c4d8136d8c96f61341d02b"},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/abhishek/College Stuff/Sem 3/Project Exhibition/Project/gatsby-ssr'),
+      plugin: require('/home/admin1/Desktop/Open-Source-Helper.github.io/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

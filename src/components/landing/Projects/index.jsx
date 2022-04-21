@@ -25,7 +25,7 @@ export const Projects = () => {
     const response2 = await fetch(
       `https://gitlab.com/api/v4/search?scope=projects&search=${query}`, {
       headers: {
-        "Private-Token": "k52i9J65wwRqC9xhXz5s"
+        "Private-Token": "glpat-3TU_asKzw9FN7LqKxqyx"
       }
     })
     const data = await response.json();
@@ -64,7 +64,7 @@ export const Projects = () => {
       </form>
 
       <Grid>
-        {repos.map((item) => (
+        {repos && repos.map((item) => (
           <Item
             key={item.id}
             as="a"
@@ -89,7 +89,7 @@ export const Projects = () => {
           </Item>
         ))}
 
-        {repos2.map((item) => (
+        {repos2 && repos2.map((item) => (
           <Item
             key={item.id}
             as="a"
